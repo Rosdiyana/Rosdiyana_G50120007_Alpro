@@ -1,0 +1,17 @@
+package praktikumalpro;
+
+import java.util.Scanner;
+
+public class ross {
+	public static void main (String[]args) {
+		Scanner input = new Scanner (System.in);
+		
+		int x;
+		System.out.println ("Rosdiyana dipanggil berapa kali");
+		x=input.nextInt();
+		
+		for (int i = 1; i<=x; i++) {
+			System.out.println ("Iyaa saya Rosdiyana Stambuk G50120007");
+		}
+	}
+}
